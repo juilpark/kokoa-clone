@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 30px;
+    box-sizing: border-box;
+}
+
+.header span {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.header__feature {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header__feature i {
+    margin: 0 15px;
+}
+
+.header__feature i:last-child {
+    margin-left: 20px;
+    margin-right: 15px;
+}

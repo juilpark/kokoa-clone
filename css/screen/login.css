@@ -1,5 +1,5 @@
 .welcome-header {
-  margin-top: 15%;
+  margin-top: 8.5%;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -7,15 +7,9 @@
 }
 
 .welcome-header__title {
-  margin-bottom: 3%;
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.welcome-header__text {
-  width: 50%;
-  opacity: 0.7;
   margin-bottom: 12%;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .login-form {
@@ -28,7 +22,7 @@
   padding: 15px 0;
   border: none;
   font-size: 18px;
-  margin-bottom: 5%;
+  margin-bottom: 5.5%;
 }
 
 .login-form input:not([type="submit"]) {
@@ -59,4 +53,5 @@
   text-decoration: none;
   color: inherit;
   font-size: 15px;
+  opacity: 0.8;
 }

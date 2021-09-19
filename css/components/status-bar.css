@@ -2,11 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px 3px;
+  padding: 15px 15px;
+  color: #474747;
+  opacity: 0.9;
+  font-size: 18px;
 }
 
 .status-bar__column {
-  width: 33%;
+  width: 50%;
 }
 
 .status-bar__column:first-child span {
@@ -24,6 +27,10 @@
   align-items: center;
 }
 
-.status-bar__column .fa-battery-full {
-  margin: 5px;
+.status-bar__column i {
+  margin: 2.5px;
+}
+
+.darkmode {
+  color: white;
 }

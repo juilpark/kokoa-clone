@@ -2,10 +2,23 @@
 @import "reset.css";
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/header.css";
+@import "components/top-nav.css";
 
 @import "variables.css";
 @import "screen/login.css";
+@import "screen/friends.css";
+@import "screen/comments.css";
+@import "screen/eye.css";
+@import "screen/more.css";
 
 body {
   font-family: "IBM Plex Sans KR", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  margin-top: 110px;
 }

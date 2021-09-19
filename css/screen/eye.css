@@ -1,0 +1,256 @@
+.view-menu {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 25px 0px 25px;
+    font-weight: bold;
+    color: gray;
+    opacity: 0.8;
+}
+
+.view-menu span:last-child {
+    margin-right: 40px;
+    color: black;
+    border-bottom: solid 3.5px black;
+    height: 45px;
+    margin-bottom: 0;
+}
+
+.corona19__info {
+    margin-top: 90px;
+    height: 395px;
+    background-color: #F0F1F5;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kokoashare {
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    box-shadow: 0px 1px 3px gray;
+    color: #3C1E1E;
+}
+
+.corona19__info__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.corona19__info__title p {
+    padding: 5px 5px;
+    background-color: red;
+    border-radius: 25px;
+    color: white;
+    margin-left: 10px;
+}
+
+.corona19__info__title--data {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.corona19__info__title-button {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 20px;
+    background-color: #3A61E2;
+    border-radius: 50px;
+    color: white;
+    margin: 25px 0;
+}
+
+.corona19__info__date {
+    margin-bottom: 20px;
+    color: gray;
+    opacity: 0.8;
+}
+
+.corona19__info__status {
+    width: 95%;
+    height: 125px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.corona19__info__status--box {
+    width: 25%;
+    height: 65%;
+    border-right: solid 2px rgba(100, 100, 100, 0.1);
+    margin: 10px 10px;
+    text-align: center;
+}
+
+.corona19__info__status--data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+
+.corona19__info__status--data span {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px;
+    margin: 10px 0;
+}
+
+.state-down  {
+    color: blue;
+}
+
+.state-none {
+    color: black;
+}
+
+.corona19__info__status--box:last-child {
+    border-right: none;
+}
+
+.corona19 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.corona19__info {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.corona19__now { 
+    width: 100%;
+}
+.white-box { 
+    height: 30px;
+    background-color: white;
+}
+
+.gray-box { 
+    height: 20px;
+    background-color: #F0F1F5;
+}
+
+.corona19__now--data { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+
+.corona19__now--data > span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.corona19__now--data > .fa-syringe { 
+    color: white;
+    background-color: #3B60E2;
+    padding: 13.5px 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.corona19__status--title {
+    margin: 0 17.5px;
+    font-size: 22px;
+    font-weight: bold;
+    height: 40px;
+    border-bottom: solid 2px rgba(100, 100, 100, 0.1);
+}
+
+.corona19__status--info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.corona19__status--info--data {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.corona19__status--info--data > span:nth-child(2) {
+    color: blue;
+    margin-left: 3px;
+    font-weight: bold;
+}
+
+.corona19__status--info--data > p {
+    font-size: 36px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.corona19__vaccineinfo--title {
+    margin: 0 17.5px;
+    font-size: 22px;
+    font-weight: bold;
+    height: 40px;
+/*   border-bottom: solid 2px rgba(100, 100, 100, 0.1); */
+}
+
+.corona19__vaccineinfo--list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.corona19__vaccineinfo--list > span {
+    background-color: #F5F6F8;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: normal;
+}
+
+.corona19__vaccineinfo--list > span:first-child {
+    border: solid 1px #3960E1;
+    color: #3960E1;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.corona19__vaccineinfo--info { 
+    margin: 75px 35px 0px 35px;
+    border-top: solid 2px rgba(100, 100, 100, 0.1);
+    border-bottom: solid 2px rgba(100, 100, 100, 0.1);
+    font-size: 16px;
+    display: flex;
+}
+
+.corona19__vaccineinfo--left {
+    width: 35%;
+}
+
+.corona19__vaccineinfo--info p {
+    padding-bottom: 10px;
+}
+
+.corona19__vaccineinfo--info p:first-child {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#info {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 10px;
+    color: gray;
+    opacity: 0.8;
+}

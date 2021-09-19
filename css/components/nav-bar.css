@@ -1,11 +1,12 @@
 .nav {
   background-color: #f9f9fa;
-  padding: 4% 10%;
+  padding: 20px 50px;
   border-top: 1px solid rgba(121, 121, 121, 0.3);
   position: fixed;
   bottom: 0;
   width: 100%;
   box-sizing: border-box;
+  z-index: 5;
 }
 
 .nav__list {
