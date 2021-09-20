@@ -1,108 +1,111 @@
 .no-shadow {
-    box-shadow: none;
+  box-shadow: none;
 }
 
 .kokoapay {
-    background-color: #FDE500;
-    height: 250px;
-    
+  background-color: #fde500;
+  height: 250px;
 }
 
 .kokoapay__first {
-    display: flex;
-    font-size: 24px;
+  display: flex;
+  font-size: 24px;
 }
 
 .more {
-    margin-left: 0;
-    margin-right: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .kokoapay__wallet {
-    margin-top: 30px;
-    margin-left: 35px;
+  margin-top: 30px;
+  margin-left: 35px;
 }
 .kokoapay__cert {
-   margin-left: auto;
-   margin-top: 30px;
-   margin-right: 35px;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-right: 35px;
 }
 
 .kokoapay__second {
-    height: 50px;
-    background-color: white;
-    display: flex;
-    margin: 22px 25px;
-    align-items: center;
-    border-radius: 5px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  margin: 22px 25px;
+  align-items: center;
+  border-radius: 5px;
 }
 
 .kokoapay__second > .fa-comment {
-    padding-left: 20px;
-    color: #F5DF0E;
+  padding-left: 20px;
+  color: #f5df0e;
 }
 
 .advertise--plus {
-    width: 20px;
-    height: 20px;
-    background-color: #F2605B;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    margin: 0 5px;
+  width: 20px;
+  height: 20px;
+  background-color: #f2605b;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 0 5px;
 }
 
 .kokoapay__second > span {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .kokoapay__second > .fa-chevron-right {
-    margin-left: auto;
-    margin-right: 10px;
+  margin-left: auto;
+  margin-right: 10px;
 }
 
 .kokoapay__third {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 35px;
 }
 
 .kokoapay__logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .kokoapay__logo > span {
-    font-size: 20px;
-    font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .kokoapay__money {
-    font-size: 24px;
-    font-weight: bold;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .kokoapay__forth {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 25px 35px;
-    font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 35px;
+  font-size: 18px;
 }
 
 .icons {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 50px;
 }
 
 .service {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    opacity: 0.8;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.service > span {
+  padding-top: 5px;
 }

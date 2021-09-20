@@ -1,0 +1,20 @@
+.chatting {
+  /*background-color: #b3c7da;*/
+  background-color: tomato;
+  margin: 100px 0 0 0;
+  height: 1000vh;
+}
+
+.chatting-bar {
+  background-color: #9badbd;
+}
+
+.chatting-header {
+  background-color: #b3c7da;
+  padding: 30px 30px;
+  margin: 0;
+}
+
+.header__title > span {
+  padding-left: 30px;
+}
