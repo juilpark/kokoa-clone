@@ -1,7 +1,7 @@
 .chatting {
-  /*background-color: #b3c7da;*/
-  background-color: tomato;
-  margin: 100px 0 0 0;
+  background-color: #b3c7da;
+  margin: 0;
+  padding: 130px 0 0 0;
   height: 1000vh;
 }
 
@@ -11,10 +11,68 @@
 
 .chatting-header {
   background-color: #b3c7da;
-  padding: 30px 30px;
+  padding: 20px 30px;
   margin: 0;
 }
 
 .header__title > span {
   padding-left: 30px;
+}
+
+.chat-nav {
+  padding: 20px 20px;
+}
+
+.chat-nav > i {
+  color: gray;
+  opacity: 0.5;
+  padding: 5px 5px;
+  border-radius: 5px;
+  border: solid 2px rgba(109, 109, 109, 0.5);
+}
+
+.chat-nav > span {
+  font-size: 24px;
+  color: gray;
+  opacity: 0.8;
+  margin-left: 10px;
+}
+
+.chatting__image {
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  border-radius: 40%;
+  margin-left: 10px;
+}
+.chatting__image > img {
+  width: 100%;
+  height: 100%;
+}
+
+.chatting__left {
+  display: flex;
+}
+
+.chatting_info {
+  padding-left: 10px;
+}
+
+.chatting__data {
+  padding: 10px 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.chatting__block {
+  display: flex;
+  align-items: flex-end;
+}
+
+.chatting__block > p {
+  color: gray;
+  opacity: 0.8;
+  font-size: 12px;
+  margin-left: 5px;
 }
